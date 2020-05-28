@@ -7,6 +7,7 @@ const theme = {
     fontSize: '1.6rem',
   },
   space: [0, '4px', '8px', '16px', '32px', '64px', '128px', '256px', '512px'],
+  breakpoints: ['640px', '768px', '1024px', '1280px'],
   fontSizes: [
     '.8rem',
     '1rem',
