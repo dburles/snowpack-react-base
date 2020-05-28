@@ -1,6 +1,10 @@
 {
-  "plugins": ["@snowpack/plugin-babel", "@snowpack/plugin-react-refresh"],
-  "scripts": { 
+  "plugins": [
+    "@snowpack/plugin-babel",
+    "@snowpack/plugin-react-refresh",
+    "@snowpack/plugin-webpack"
+  ],
+  "scripts": {
     "mount:public": "mount public --to /",
     "mount:src": "mount src --to /_dist_"
   }
