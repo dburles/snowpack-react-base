@@ -1,0 +1,7 @@
+{
+  "plugins": ["@snowpack/plugin-babel", "@snowpack/plugin-react-refresh"],
+  "scripts": { 
+    "mount:public": "mount public --to /",
+    "mount:src": "mount src --to /_dist_"
+  }
+}
