@@ -9,7 +9,7 @@
   },
   "browserslist": "Node >= 12, > 0.5%, not OperaMini all, not dead",
   "dependencies": {
-    "mystical": "^4.0.0",
+    "mystical": "^4.1.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
