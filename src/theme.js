@@ -1,10 +1,12 @@
 const theme = {
-  html: {
-    /* 1rem = 10px */
-    fontSize: '62.5%',
-  },
-  body: {
-    fontSize: '1.6rem',
+  global: {
+    html: {
+      /* 1rem = 10px */
+      fontSize: '62.5%',
+    },
+    body: {
+      fontSize: '1.6rem',
+    },
   },
   space: [
     0,
