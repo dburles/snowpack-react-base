@@ -3,7 +3,7 @@ const Button = (props) => {
     <button
       {...props}
       css={{
-        backgroundColor: 'teal',
+        backgroundColor: 'blue.500',
         color: 'white',
         borderWidth: 0,
         padding: '2 3',
