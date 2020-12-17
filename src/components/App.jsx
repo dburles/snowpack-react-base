@@ -4,7 +4,7 @@ const Button = React.lazy(() => {
   return import('./Button.jsx');
 });
 
-const App = () => {
+export default function App() {
   return (
     <div css={{ color: 'teal' }}>
       <Suspense fallback="Loading...">
@@ -12,6 +12,4 @@ const App = () => {
       </Suspense>
     </div>
   );
-};
-
-export default App;
+}
