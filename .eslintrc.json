@@ -11,8 +11,9 @@
       "error",
       "all"
     ],
-    "no-sparse-arrays": 0,
-    "react/react-in-jsx-scope": "off"
+    "no-sparse-arrays": "off",
+    "react/react-in-jsx-scope": "off",
+    "jsdoc/require-jsdoc": "off"
   },
   "parserOptions": {
     "sourceType": "module"
